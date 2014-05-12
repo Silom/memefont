@@ -1,0 +1,57 @@
+/*
+  Icon Font: fontcustom
+*/
+
+@font-face {
+  font-family: "fontcustom";
+  src: url("./fontcustom.eot");
+  src: url("./fontcustom.eot?#iefix") format("embedded-opentype"),
+       url("./fontcustom.woff") format("woff"),
+       url("./fontcustom.ttf") format("truetype"),
+       url("./fontcustom.svg#fontcustom") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "fontcustom";
+    src: url("./fontcustom.svg#fontcustom") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.icon-forever_alone_happy:before,
+.icon-jesus:before,
+.icon-kidding_me:before,
+.icon-lol:before,
+.icon-me_gusta:before,
+.icon-no:before,
+.icon-trollface:before,
+.icon-why:before,
+.icon-yao_ming:before {
+  display: inline-block;
+  font-family: "fontcustom";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.icon-forever_alone_happy:before { content: "\f100"; }
+.icon-jesus:before { content: "\f101"; }
+.icon-kidding_me:before { content: "\f102"; }
+.icon-lol:before { content: "\f103"; }
+.icon-me_gusta:before { content: "\f104"; }
+.icon-no:before { content: "\f105"; }
+.icon-trollface:before { content: "\f106"; }
+.icon-why:before { content: "\f107"; }
+.icon-yao_ming:before { content: "\f108"; }
