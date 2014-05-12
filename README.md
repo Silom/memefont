@@ -10,7 +10,7 @@ Add the ``fontcustom.css`` file to your project and use the css classes.
 <i id="icon-[Meme Name]" class="[style]"></i>
 ```
 
-If you want to style your fonts, you can use default browser css.
+If you want to style your fonts, you can use css.
 
 ```less
 .icon-big {
