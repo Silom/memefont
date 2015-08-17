@@ -7,7 +7,7 @@ I made some meme drawings and added them to a font family.
 Add the ``fontcustom.css`` file to your project and use the css classes.
 
 ```html
-<i id="icon-[Meme Name]" class="[style]"></i>
+<i class="icon-[Meme Name] [style]"></i>
 ```
 
 If you want to style your fonts, you can use css.
